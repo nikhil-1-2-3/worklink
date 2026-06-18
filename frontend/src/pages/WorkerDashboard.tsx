@@ -161,7 +161,7 @@ const WorkerDashboard = () => {
     enabled: !!profile && profile.contractorStatus === 'Gathering Team'
   });
 
-  const { data: receivedInvites = [], isLoading: receivedInvitesLoading } = useQuery({
+  const { data: receivedInvites = [] } = useQuery({
     queryKey: ['worker-received-invites'],
     queryFn: async () => {
       const { data } = await api.get('/worker/invites');
