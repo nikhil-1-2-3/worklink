@@ -1,4 +1,3 @@
-:::writing{variant="document" id="53821"}
 name: Build and Push Docker Images
 
 on:
