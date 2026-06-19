@@ -35,4 +35,3 @@ jobs:
       - name: Push Frontend Image
         run: |
           docker push singhnikhil212/worklink-frontend:latest
-          
