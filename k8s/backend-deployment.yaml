@@ -21,7 +21,7 @@ spec:
       - name: backend
         image: singhnikhil212/worklink-backend:latest
 
-        imagePullPolicy: Always
+        imagePullPolicy: IfNotPresent
 
         ports:
         - containerPort: 5000
